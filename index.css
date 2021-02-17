@@ -50,9 +50,14 @@ header {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 1rem;
     margin-bottom: 1rem;
+    justify-content: space-evenly;
 }
 
 .filter-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     padding: .8rem;
 }
 
